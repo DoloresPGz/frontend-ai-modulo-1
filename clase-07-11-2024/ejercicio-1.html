@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi práctica de html semantico</title>
+</head>
+<body>
+    <!-- Header es la sección superior de la página y generalmente incluye información introductoria,
+     como el título y el menú de navegación -->
+     <header>
+        <h1>Bienvenidos a mi sitio web</h1>
+        <!-- Menú de navegación -->
+         <nav>
+            <ul>
+                <li>Sobre mi</li>
+                <li>Intereses</li>
+                <li>Enlaces</li>
+            </ul>
+         </nav>
+     </header>
+
+     <!-- main es la sección principal que contiene  el contenido central de la página. 
+      Se recomienda usar main solo una vez en cada página par indicar la parte más importante del
+      documento-->
+    <main>
+        <section>
+            <h2>Sobre mi</h2>
+            <p>Me llamo Dolores Parra y estoy aprendiendo desarrollo web y etiquetas semánticas de html.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, rerum. Id ipsa sequi deserunt nihil! Delectus facere deserunt, minus non vel, quia accusamus nesciunt ut perferendis, necessitatibus commodi sunt eaque.</p>
+        </section>
+        <section>
+            <h2>Intereses</h2>
+            <ul>
+                <li>Programación</li>
+                <li>Lectura</li>
+                <li>Deportes</li>
+                <li>Videojuegos</li>
+            </ul>
+
+            <!-- figure agrupa contenido visual como imágenes, y es común utilizarla en conjunto con la etiqueta figcaption, que proporciona un título o descripción para el contenido visual -->
+             <figure>
+                <img src="./img/videojuego.jpg" alt="Mi videojuego favorito" width="300" title="Blasphemous">
+                <figcaption>Imagen represantivia de mis intereses. Blasphemous es uno de mis juegos favoritos.</figcaption>
+             </figure>
+        </section>
+        <section>
+            <h2>Enlaces</h2>
+            <p>Visita estos sitios recomendados para aprender desarrollo web.</p>
+            <ul>
+                <!-- a es una etique de enlaces que generalmente viena compañada del atributo href donde agregamos la dirección a la cual queremos redireccionar, otro atributo comunmente utlizado es el de targer que da un control de cómo se va a abrir el enlace -->
+                <li>
+                    <a href="https://www.w3schools.com/html/default.asp" target="_blank">W3schools</a>
+                </li>
+                <li>
+                    <a href="https://developer.mozilla.org/es/docs/Web/HTML" target="_blank">MDN Web Docs</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dolores Parra. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
